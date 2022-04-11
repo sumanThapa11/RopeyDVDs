@@ -370,7 +370,7 @@ namespace Ropey_DVDs.Migrations
 
             modelBuilder.Entity("Ropey_DVDs.Models.LoanType", b =>
                 {
-                    b.Property<Guid>("LoanNumber")
+                    b.Property<Guid>("LoanTypeNumber")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
@@ -382,7 +382,7 @@ namespace Ropey_DVDs.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("LoanNumber");
+                    b.HasKey("LoanTypeNumber");
 
                     b.ToTable("LoanTypes");
                 });

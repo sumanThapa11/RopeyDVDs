@@ -12,8 +12,8 @@ using Ropey_DVDs.Data;
 namespace Ropey_DVDs.Migrations
 {
     [DbContext(typeof(RopeyDBContext))]
-    [Migration("20220411100903_id changed to guid and user model added")]
-    partial class idchangedtoguidandusermodeladded
+    [Migration("20220411134404_initial migration")]
+    partial class initialmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -372,7 +372,7 @@ namespace Ropey_DVDs.Migrations
 
             modelBuilder.Entity("Ropey_DVDs.Models.LoanType", b =>
                 {
-                    b.Property<Guid>("LoanNumber")
+                    b.Property<Guid>("LoanTypeNumber")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
@@ -384,7 +384,7 @@ namespace Ropey_DVDs.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("LoanNumber");
+                    b.HasKey("LoanTypeNumber");
 
                     b.ToTable("LoanTypes");
                 });

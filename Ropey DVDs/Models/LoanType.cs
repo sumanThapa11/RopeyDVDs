@@ -5,7 +5,7 @@ namespace Ropey_DVDs.Models
     public class LoanType
     {
         [Key]
-        public Guid LoanNumber { get; set; }
+        public Guid LoanTypeNumber { get; set; }
 
         [Required]
         public String LoanName { get; set; }

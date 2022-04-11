@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DlR3yIR0oqx+4IXZkt+GW55BGiGmYEaK1kjkwf8aN0n85nFPSsfswKhpIkpUtcqK3gHqrWvq80RgVq9E+GMPSw==",
+  "dgSpecHash": "JYcwCp0ZtdQFWzElYvtTirVUxY+5s/aWwpbe7+vwcKKrJmVHPPbBkyupnQuGJKJbeXJbX0t5D8dqTEu/ADLWJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\Ropey DVDs\\Ropey DVDs\\Ropey DVDs.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\App Dev\\Development\\Ropey DVDs\\Ropey DVDs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

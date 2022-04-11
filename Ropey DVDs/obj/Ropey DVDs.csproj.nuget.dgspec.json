@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\Ropey DVDs\\Ropey DVDs\\Ropey DVDs.csproj": {}
+    "C:\\Users\\user\\Desktop\\App Dev\\Development\\Ropey DVDs\\Ropey DVDs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\Ropey DVDs\\Ropey DVDs\\Ropey DVDs.csproj": {
+    "C:\\Users\\user\\Desktop\\App Dev\\Development\\Ropey DVDs\\Ropey DVDs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Ropey DVDs\\Ropey DVDs\\Ropey DVDs.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\App Dev\\Development\\Ropey DVDs\\Ropey DVDs.csproj",
         "projectName": "Ropey DVDs",
-        "projectPath": "C:\\Users\\user\\source\\repos\\Ropey DVDs\\Ropey DVDs\\Ropey DVDs.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\App Dev\\Development\\Ropey DVDs\\Ropey DVDs.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\Ropey DVDs\\Ropey DVDs\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\App Dev\\Development\\Ropey DVDs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
