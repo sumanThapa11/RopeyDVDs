@@ -30,9 +30,12 @@ namespace Ropey_DVDs.Controllers
             return View();
         }
 
-        public IActionResult UserDetails()
+        public IActionResult UserDetails(UserDetailsViewModel user)
+
         {
-            return View();
+           
+
+            return View(user);
         }
 
         // GET: Authentication/Login
@@ -76,13 +79,15 @@ namespace Ropey_DVDs.Controllers
                     Expiration = token.ValidTo
                 };
                 ViewBag.User = userDetails;
-                return RedirectToAction("UserDetails", ViewBag.User);
+                //TempData["User"] = userDetails;
+                HttpContext.Response.Cookies.Append("token", userDetails.Token,new CookieOptions {HttpOnly = true });
+                return RedirectToAction("UserDetails",userDetails);
             }
             return RedirectToAction("UnauthorizedAccess");
         }
 
         // GET: Authentication/RegisterUser
-        public IActionResult Register()
+        public IActionResult RegisterUser()
         {
             return View();
         }
