@@ -34,8 +34,6 @@ namespace Ropey_DVDs.Data
         public DbSet<Member> Members { get; set; }
 
 
-      
-        
 
     }
 

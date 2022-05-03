@@ -1,0 +1,54 @@
+﻿@using Ropey_DVDs.Models.ViewModels
+@model IList<DVDCastViewModel>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div style="font-family:Arial">
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<p>
+    @using(Html.BeginForm("Index","CastMembers",FormMethod.Get))
+    {
+
+    @Html.TextBox("search") <input type="submit" value="search"/>
+   
+    }
+</p>
+<table class="table" border="1">
+    <thead>
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.DVDTitle)*@
+                DVD Title
+            </th>
+            <th>
+               @* @Html.DisplayNameFor(model => model.ActorSurname)*@
+               Actor Surname
+            </th>
+            
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DVDTitle)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorSurname)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+</div>

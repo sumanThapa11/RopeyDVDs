@@ -8,10 +8,10 @@ namespace Ropey_DVDs.Models
        
         [ForeignKey("DVDTitle")]
         public Guid DVDNumber { get; set; }
-        public DVDTitle DVDTitle { get; set; }
+        public DVDTitle? DVDTitle { get; set; }
 
         [ForeignKey("Actor")]
         public Guid ActorNumber { get; set; }
-        public Actor Actor { get; set; }
+        public Actor? Actor { get; set; }
     }
 }

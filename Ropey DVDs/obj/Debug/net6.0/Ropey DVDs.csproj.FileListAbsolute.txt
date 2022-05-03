@@ -536,3 +536,8 @@ C:\Users\user\Desktop\App Dev\Development\Ropey DVDs\obj\Debug\net6.0\refint\Rop
 C:\Users\user\Desktop\App Dev\Development\Ropey DVDs\obj\Debug\net6.0\Ropey DVDs.pdb
 C:\Users\user\Desktop\App Dev\Development\Ropey DVDs\obj\Debug\net6.0\Ropey DVDs.genruntimeconfig.cache
 C:\Users\user\Desktop\App Dev\Development\Ropey DVDs\obj\Debug\net6.0\ref\Ropey DVDs.dll
+C:\Users\user\Desktop\App Dev\Development\Ropey DVDs\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\App Dev\Development\Ropey DVDs\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\App Dev\Development\Ropey DVDs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\App Dev\Development\Ropey DVDs\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\App Dev\Development\Ropey DVDs\obj\Debug\net6.0\Ropey DVDs.MvcApplicationPartsAssemblyInfo.cs
