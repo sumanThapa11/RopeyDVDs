@@ -6,22 +6,39 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
 
 <div style="font-family:Arial">
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<p>
+        <input class="form-control me-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    
+
     @using(Html.BeginForm("Index","CastMembers",FormMethod.Get))
     {
-
-    @Html.TextBox("search") <input type="submit" value="search"/>
-   
+ <form class="d-flex">
+     <p>
+         <input type="search" placeholder="Search Cast Member" value="search" style="width:300px;" />
+         <input type="submit" value="Search" class="btn btn-primary" />
+     </p>
+    @Html.TextBox("search") <input type="submit" value="Search" style="width:150px"; class="btn btn-outline-info"  /><i class="fa-solid fa-magnifying-glass"></i> 
+     </form>
     }
-</p>
-<table class="table" border="1">
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-8">
+            <h2 class="text-primary"> Cast Members </h2>
+
+        </div>
+        <div class="col-4 text-end">
+            <a asp-action="Create" class="btn btn-outline-primary"> <i class="bi bi-plus-circle-fill"></i>
+             
+            </a>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped" border="1">
     <thead>
         <tr>
             <th>

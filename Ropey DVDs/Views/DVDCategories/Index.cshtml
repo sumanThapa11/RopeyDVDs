@@ -3,13 +3,20 @@
 @{
     ViewData["Title"] = "Index";
 }
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-8">
+            <h2 class="text-primary"> DVD Categories </h2>
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+        </div>
+        <div class="col-4 text-end">
+            <a asp-action="Create" class="btn btn-outline-primary"> <i class="bi bi-plus-circle-fill"></i>
+             
+            </a>
+        </div>
+    </div>
+</div>
+<table class="table table-bordered table-striped" border="1">
     <thead>
         <tr>
             <th>
@@ -31,9 +38,9 @@
                 @Html.DisplayFor(modelItem => item.AgeRestricted)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.CategoryNumber">Edit</a> |
+                <a asp-action="Edit" asp-route-id="@item.CategoryNumber"><i class="fa-solid fa-pen-fancy"></i></a> |
                 <a asp-action="Details" asp-route-id="@item.CategoryNumber">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CategoryNumber">Delete</a>
+                <a asp-action="Delete" asp-route-id="@item.CategoryNumber"><i class="fa-solid fa-trash"></i></a>
             </td>
         </tr>
 }
